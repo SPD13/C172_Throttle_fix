@@ -4,25 +4,25 @@ A Script to fix the Throttle and Mixture problem with Airfoillabs Cessna 172 and
 ​
 If you are having issues with you custom build throttles and mixture quadrants when using the Airfoillabs Cessna 172, the attached LUA script will fix the problem.
 
-#Source of the problem:
+# Source of the problem
 
 Airfoillabs is using custom DataRefs to update throttles (C172/cockpit/ped/throttle) and overrides the standard one (sim/cockpit2/engine/actuators/throttle_ratio)
 
-#Fix:
+# Fix
 
 I wrote a LUA script to read the throttle value before it is updated and override the custom data ref with the value
 
-#How to install:
+# How to install
 
 You need the FlyWithLua plugin (https://forums.x-plane.org/index.php?/files/file/38445-flywithlua-ng-next-generation-edition-for-x-plane-11-win-lin-mac/), put the attached script in the "Scripts" folder
 
-#How to use:
+# How to use
 
 It should work automatically 😄
 
 If you want details on the values, you can change the value of the "DEBUG" variable to "true" to show a debug window
 
-#To be tested:
+# To be tested
 
 I tested it successfully on my Macbook Pro M1 with a custom quadrant using SimVimX
 
